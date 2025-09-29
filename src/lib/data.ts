@@ -1,7 +1,7 @@
 import type { ProductsT } from "./types";
 
 export const products: ProductsT = [
-  { id: 1, name: "Paluszki Beskidzkie", price: 6.5, src: "/paluszki.webp" },
+  { id: 1, name: "Paluszki", price: 6.5, src: "/paluszki.png" },
   { id: 2, name: "Mleko", price: 9.9, src: "/mleko.png" },
   { id: 3, name: "Coca Cola", price: 5.5, src: "/cola.png" },
   { id: 4, name: "Chipsy Lays", price: 7.2, src: "/chipsy.png" },
@@ -19,6 +19,6 @@ export const products: ProductsT = [
   { id: 16, name: "Zelki", price: 7.2, src: "/zelki.png" },
   { id: 17, name: "Orzechy", price: 6.5, src: "/orzechy.jpg" },
   { id: 18, name: "Vegeta", price: 9.9, src: "/vegeta.webp" },
-  { id: 19, name: "Sos do Spagetti", price: 5.5, src: "/sos.webp" },
+  { id: 19, name: "Sos", price: 5.5, src: "/sos.webp" },
   { id: 20, name: "Rzezucha", price: 7.2, src: "/rzezucha.jpg" },
 ];

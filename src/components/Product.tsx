@@ -4,11 +4,11 @@ import Image from "next/image";
 
 export const Product = ({ id, name, src, price }: ProductT) => {
   return (
-    <div className="Card border flex flex-col justify-around gap-2 text-center p-3 rounded-lg shadow-md">
+    <div className="Card border flex flex-col justify-around gap-2 text-center p-3 rounded-lg shadow-md w-55 h-90">
       <h4 className="font-bold text-lg">{name}</h4>
       <p className="text-white">{price} zł</p>
       <div className="flex justify-center align-middle">
-              <Image width={150} height={230} src={src} alt={`${name}-${id}`} />
+              <Image className="w-[150px] h-[100px]" width={150} height={100} src={src} alt={`${name}-${id}`} />
       </div>
       <a
         href={src.toString()}
