@@ -6,7 +6,7 @@ export const Product = ({ id, name, src, price }: ProductT) => {
   return (
     <div className="Card border flex flex-col justify-around gap-2 text-center p-3 rounded-lg shadow-md">
       <h4 className="font-bold text-lg">{name}</h4>
-      <p className="text-gray-700">{price} zł</p>
+      <p className="text-white">{price} zł</p>
       <div className="flex justify-center align-middle">
               <Image width={150} height={230} src={src} alt={`${name}-${id}`} />
       </div>
